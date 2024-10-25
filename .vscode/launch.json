@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "QuizApplication",
+            "request": "launch",
+            "mainClass": "com.sameel.quizapp.QuizApplication",
+            "projectName": "quizapplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-QuizApplication<quizapp>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sameel.quizapp.QuizApplication",
+            "projectName": "quizapp",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
